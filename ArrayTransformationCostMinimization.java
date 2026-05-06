@@ -14,8 +14,6 @@ public class ArrayTransformationCostMinimization {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-
-        // Taking value of K
         System.out.print("Enter value of K: ");
         int k = sc.nextInt();
 
@@ -26,7 +24,6 @@ public class ArrayTransformationCostMinimization {
                 return;
             }
         }
-
         Arrays.sort(arr);
         int median = arr[n / 2];
 
